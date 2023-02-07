@@ -1,5 +1,5 @@
 ---
-title: Immerse.Design
+title: immerse.design
 layout: home
 description: Integrated digital solutions backed by power of data and analytics.
 intro_image: "images/illustrations/pointing.svg"
