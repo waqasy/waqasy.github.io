@@ -32,10 +32,11 @@
 
 @keyframes vibrate{
     0% {
-        transform: translateX(-1px) translateY(1px);
+        translateX(-0.5px) translateY(-0.5px)
     }
     100% {
-        transform: translateX(1px) translateY(-2px);
+        translateX(0.5px) translateY(0.5px);
+        filter:blur(0.5);
     }
 }
 
@@ -46,6 +47,7 @@ span.immerse {
     text-shadow: 1px 1px #fe2c55;
     font-family: $font-family-heading;
     animation: vibrate 50ms linear infinite forwards;
+    display:inherit;
 }
 span.immerse:before {
     content: attr(class);
