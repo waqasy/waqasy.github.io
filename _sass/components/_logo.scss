@@ -30,12 +30,22 @@
   }
 }
 
+@keyframes vibrate{
+    0% {
+        transform: translateX(-1px) translateY(1px);
+    }
+    100% {
+        transform: translateX(1px) translateY(-2px);
+    }
+}
+
 span.immerse {
     color: $black;
     font-size: 48px;
     position: relative;
     text-shadow: 1px 1px #fe2c55;
     font-family: $font-family-heading;
+    animation: vibrate 50ms linear infinite forwards;
 }
 span.immerse:before {
     content: attr(class);
