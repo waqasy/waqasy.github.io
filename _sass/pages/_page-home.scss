@@ -1,17 +1,2 @@
 .page-home {
 }
-
-span.immerse {
-    color: #2f2f41;
-    font-size: 48px;
-    position: relative;
-    text-shadow: 1px 1px #fe2c55;
-    font-family: "Roboto",Arial,sans-serif,-apple-system;
-}
-span.immerse:before {
-    content: attr(class);
-    position:absolute;
-    left:0;
-    right:0;
-    text-shadow: -1px -1px #25f4ee;
-}
