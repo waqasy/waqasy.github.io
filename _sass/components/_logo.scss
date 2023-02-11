@@ -34,7 +34,7 @@ span.immerse {
     color: $black;
     font-size: 48px;
     position: relative;
-    text-shadow: 1.5px 1.5px #fe2c55;
+    text-shadow: 2px 2px #fe2c55;
     font-family: $font-family-heading;
 }
 span.immerse:before {
@@ -42,5 +42,5 @@ span.immerse:before {
     position:absolute;
     left:0;
     right:0;
-    text-shadow: -1,5px -1.5px #25f4ee;
+    text-shadow: -2px -2px #25f4ee;
 }
