@@ -1,4 +1,5 @@
-baseurl: 'https://immerse.design'
+baseurl: '/'
+homeurl: 'https://immerse.design'
 permalink: pretty
 title: 'immerse.design'
 
