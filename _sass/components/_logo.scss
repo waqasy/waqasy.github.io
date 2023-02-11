@@ -30,24 +30,12 @@
   }
 }
 
-@keyframes vibrate{
-    0% {
-        translateX(-0.5px) translateY(-0.5px)
-    }
-    100% {
-        translateX(0.5px) translateY(0.5px);
-        filter:blur(0.5);
-    }
-}
-
 span.immerse {
     color: $black;
     font-size: 48px;
     position: relative;
     text-shadow: 1px 1px #fe2c55;
     font-family: $font-family-heading;
-    animation: vibrate 50ms linear infinite forwards;
-    display:inherit;
 }
 span.immerse:before {
     content: attr(class);
