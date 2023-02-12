@@ -50,6 +50,21 @@ span.shadowed:hover, span.shadowed:hover:before {
     text-shadow: none;
 }
 
+span.immerse, span.immersed {
+  position: relative
+}
+
+span.immerse:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: #000;
+    bottom: 3px;
+    transition: all 0.2s ease-out;
+}
+
 span.immersed {
   cursor: pointer;
   position: relative;
@@ -61,18 +76,7 @@ span.immersed {
   background-repeat: no-repeat;
   transition: background 0.2s ease-out;
   white-space: nowrap;
-  line-height: 1;
-}
-
-span.immerse:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 15px;
-    background: #000;
-    bottom: 0;
-    transition: all 0.2s ease-out;
+  line-height: 1.1;
 }
 
 span.immersed:hover {
