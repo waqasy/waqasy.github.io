@@ -71,6 +71,14 @@ span.immerse:before {
     right: 0;
     height: 15px;
     background: #000;
-    bottom: 3px;
+    bottom: 0;
     transition: all 0.2s ease-out;
+}
+
+span.immersed:hover {
+  background-position: 0 11px;
+}
+
+span.immerse:hover:before {
+  transform: translateY(10px)
 }
