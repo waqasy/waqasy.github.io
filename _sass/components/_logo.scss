@@ -35,7 +35,7 @@ span.immerse {
     color: #3A3A3D;
     font-size: 48px;
     position: relative;
-    text-shadow: 1.5px 1.5px #fe9298;
+    text-shadow: 1.75px 1.75px #fe9298;
     font-family: $font-family-heading;
     transition: text-shadow 0.1s linear;
 }
@@ -44,7 +44,7 @@ span.immerse:before {
     position:absolute;
     left:0;
     right:0;
-    text-shadow: -1.5px -1.5px #00FFFF;
+    text-shadow: -1.75px -1.75px #00FFFF;
 }
 span.immerse:hover, span.immerse:hover:before {
   text-shadow: none;
