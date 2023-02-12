@@ -60,7 +60,7 @@ span.immerse:before {
     left: 0;
     right: 0;
     height: 15px;
-    background: #000;
+    background: #3A3A3D;
     bottom: 3px;
     transition: all 0.2s ease-out;
 }
@@ -68,7 +68,7 @@ span.immerse:before {
 span.immersed {
   cursor: pointer;
   display: inline-block;
-  background: linear-gradient(to bottom, #000, #000 65%, #fff 65%, #fff 100%);
+  background: linear-gradient(to bottom, $3A3A3D, #3A3A3D 65%, #fff 65%, #fff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
