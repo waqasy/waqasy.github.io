@@ -40,7 +40,7 @@ span.shadowed {
     transition: text-shadow 0.1s linear;
 }
 span.shadowed:before {
-    content: attr(class);
+    content: 'immersed';
     position:absolute;
     left:0;
     right:0;
