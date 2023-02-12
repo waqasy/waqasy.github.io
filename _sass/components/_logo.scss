@@ -47,10 +47,10 @@ span.shadowed:before {
     text-shadow: -1.75px -1.75px #00FFFF;
 }
 span.shadowed:hover, span.shadowed:hover:before {
-  text-shadow: none;
+    text-shadow: none;
 }
 
-span.immerse {
+span.immersed {
   cursor: pointer;
   position: relative;
   display: inline-block;
