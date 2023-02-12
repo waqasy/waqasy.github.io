@@ -37,7 +37,7 @@ span.immerse {
     position: relative;
     text-shadow: 1.5px 1.5px #fe9298;
     font-family: $font-family-heading;
-    transition: text-shadow 0.1s linear;
+    transition: text-shadow 0.05s linear;
 }
 span.immerse:before {
     content: attr(class);
