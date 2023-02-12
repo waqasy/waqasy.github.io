@@ -10,7 +10,9 @@
     display: block;
     width: 100%;
     height: 100%;
-    text-decoration: none
+    text-decoration: none;
+    color: #3A3A3D;
+    font-size: 48px;
   }
 }
 .logo-mobile {
@@ -31,21 +33,44 @@
   }
 }
 
-span.immerse {
-    color: #3A3A3D;
-    font-size: 48px;
+span.shadowed {
     position: relative;
     text-shadow: 1.75px 1.75px #fe9298;
     font-family: $font-family-heading;
     transition: text-shadow 0.1s linear;
 }
-span.immerse:before {
+span.shadowed:before {
     content: attr(class);
     position:absolute;
     left:0;
     right:0;
     text-shadow: -1.75px -1.75px #00FFFF;
 }
-span.immerse:hover, span.immerse:hover:before {
+span.shadowed:hover, span.shadowed:hover:before {
   text-shadow: none;
+}
+
+span.immerse {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #000, #000 70%, #fff 70%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+span.immerse:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: #000;
+    bottom: 3px;
+    transition: all 0.2s ease-out;
 }
