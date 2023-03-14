@@ -4,8 +4,8 @@
     "description": "Complete ecommerce solution from development to launch.",
     "image": {
       "url": "images/features/ecommerce.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   },
   {
@@ -13,8 +13,8 @@
     "description": "Reliable emergency support backed by supportive team.",
     "image": {
       "url": "images/features/247-updates.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   },
   {
@@ -22,8 +22,8 @@
     "description": "Something's broken? Let our team diagnose and solve it.",
     "image": {
       "url": "images/features/bug-removal.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   },
   {
@@ -31,8 +31,8 @@
     "description": "Fool proof security for your website and data.",
     "image": {
       "url": "images/features/security.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   },
   {
@@ -40,8 +40,8 @@
     "description": "Improvement website and core web vital score for better SEO.",
     "image": {
       "url": "images/features/optimization.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   },
   {
@@ -49,8 +49,8 @@
     "description": "Installation and optmization of cloud servers to get max out of resources.",
     "image": {
       "url": "images/features/webserver.png",
-      "width": 80,
-      "height": 80
+      "width": 60,
+      "height": 60
     }
   }
 ]
