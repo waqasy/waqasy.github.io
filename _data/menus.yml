@@ -1,7 +1,10 @@
 main:
+  - name: "Work"
+    url: "/work/"
+    weight: 1
   - name: "Contact"
     url: "/contact/"
-    weight: 1
+    weight: 2
 
 footer:
   - name: "Home"
