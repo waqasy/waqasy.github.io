@@ -1,7 +1,7 @@
 [
   {
     "title": "Woocommerce Support",
-    "description": "New clients receive an obligation free consultation.",
+    "description": "Complete ecommerce solution from development to launch.",
     "image": {
       "url": "images/features/ecommerce.png",
       "width": 80,
@@ -10,7 +10,7 @@
   },
   {
     "title": "24/7 Website Edits",
-    "description": "All members of our team are certified accountants.",
+    "description": "Reliable emergency support backed by supportive team.",
     "image": {
       "url": "images/features/247-updates.png",
       "width": 80,
@@ -19,7 +19,7 @@
   },
   {
     "title": "Malware/ Bug Removal",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "description": "Something's broken? Let our team diagnose and solve it.",
     "image": {
       "url": "images/features/bug-removal.png",
       "width": 80,
@@ -28,7 +28,7 @@
   },
   {
     "title": "Security & Backups",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "description": "Fool proof security for your website and data.",
     "image": {
       "url": "images/features/security.png",
       "width": 80,
@@ -37,7 +37,7 @@
   },
   {
     "title": "PageSpeed Optimizations",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "description": "Improvement website and core web vital score for better SEO.",
     "image": {
       "url": "images/features/optimization.png",
       "width": 80,
@@ -45,8 +45,8 @@
     }
   },
   {
-    "title": "WebServer Installtion",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "WebServer Installation",
+    "description": "Installation and optmization of cloud servers to get max out of resources.",
     "image": {
       "url": "images/features/webserver.png",
       "width": 80,
