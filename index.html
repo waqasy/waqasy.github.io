@@ -11,6 +11,10 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="preload" as="image" href="web.jpg">
+	<link rel="preload" as="image" href="ecommerce.jpg">
+	<link rel="preload" as="image" href="app.jpg">
+	<link rel="preload" as="image" href="cms.jpg">
 	<style>
 	input:-webkit-autofill,
 	textarea:-webkit-autofill,
@@ -274,7 +278,7 @@
                         <g clip-path="url(#:S1:-clip)" class="group">
                           <g class="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
                             <foreignObject width="655" height="680">
-                              <img alt="" loading="lazy" width="2400" height="3000" decoding="async" data-nimg="1" class="w-full bg-neutral-100 object-cover" sizes="(min-width: 1024px) 41rem, 31rem" srcset="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=16&amp;q=75 16w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=32&amp;q=75 32w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=48&amp;q=75 48w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=64&amp;q=75 64w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=96&amp;q=75 96w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=128&amp;q=75 128w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=256&amp;q=75 256w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=384&amp;q=75 384w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=640&amp;q=75 640w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=750&amp;q=75 750w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=828&amp;q=75 828w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1080&amp;q=75 1080w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1200&amp;q=75 1200w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=1920&amp;q=75 1920w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=2048&amp;q=75 2048w, https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=3840&amp;q=75 3840w" src="https://studio.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flaptop.22dcb094.jpg&amp;w=3840&amp;q=75" style="color: transparent; aspect-ratio: 655 / 680;">
+                              <img alt="" loading="lazy" width="2400" height="3000" decoding="async" data-nimg="1" class="w-full bg-neutral-100 object-cover" style="color: transparent; aspect-ratio: 655 / 680;" src="web.jpg">
                             </foreignObject>
                           </g>
                           <use href="#:S1:-shape" stroke-width="2" class="stroke-neutral-950/10"></use>
@@ -489,6 +493,13 @@
         status.innerHTML = "Oops! There was a problem submitting your form"
       });
     }
-    form.addEventListener("submit", handleSubmit)
+    form.addEventListener("submit", handleSubmit);
+	document.querySelectorAll(".custom-ul li").forEach((el) => {
+      el.addEventListener('mouseover', function(e){         
+          var src = el.dataset.src;
+          console.log(src);
+          document.querySelector(".bg-here").setAttribute('src', src);
+      });
+    });
 </script>  
 </body></html>
