@@ -278,7 +278,7 @@
                         <g clip-path="url(#:S1:-clip)" class="group">
                           <g class="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105">
                             <foreignObject width="655" height="680">
-                              <img alt="" loading="lazy" width="2400" height="3000" decoding="async" data-nimg="1" class="w-full bg-neutral-100 object-cover" style="color: transparent; aspect-ratio: 655 / 680;" src="web.jpg">
+                              <img alt="" loading="lazy" width="2400" height="3000" decoding="async" data-nimg="1" class="w-full bg-neutral-100 object-cover immerse-img" style="color: transparent; aspect-ratio: 655 / 680;" src="web.jpg">
                             </foreignObject>
                           </g>
                           <use href="#:S1:-shape" stroke-width="2" class="stroke-neutral-950/10"></use>
@@ -293,7 +293,7 @@
                   </div>
                 </div>
                 <div>
-                  <ul role="list" class="text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+                  <ul role="list" class="text-neutral-600 mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4 immerse-ul">
                     <li class="group mt-10 first:mt-0">
                       <div style="opacity: 1; transform: none;">
                         <div class="pt-10 group-first:pt-0 group-first:before:hidden group-first:after:hidden relative before:absolute after:absolute before:bg-neutral-950 after:bg-neutral-950/10 before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px">
@@ -494,11 +494,11 @@
       });
     }
     form.addEventListener("submit", handleSubmit);
-	document.querySelectorAll(".custom-ul li").forEach((el) => {
+	document.querySelectorAll(".immerse-ul li").forEach((el) => {
       el.addEventListener('mouseover', function(e){         
           var src = el.dataset.src;
           console.log(src);
-          document.querySelector(".bg-here").setAttribute('src', src);
+          document.querySelector(".immerse-img").setAttribute('src', src);
       });
     });
 </script>  
